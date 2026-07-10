@@ -160,7 +160,8 @@ text-decoration:none;
 <p>Houston, TX</p>
 <a href="Zia_Khan_Resume.pdf"
    download
-   class="resume-btn">
+   class="resume-btn"
+   onclick="gtag('event','resume_download');">
     📄 Download Resume
 </a>
 </div>
@@ -330,12 +331,20 @@ I begin with business objective clarity and audience intent mapping. Before laun
 
 <h2>Contact</h2>
 
-<p>Email: ziakhn@gmail.com</p>
+<p>Email:
+<a href="mailto:ziakhn@gmail.com"
+onclick="gtag('event','email_click');">
+ziakhn@gmail.com
+</a>
+</p>
 
 <p>
 LinkedIn:
-<a href="https://www.linkedin.com/in/khanzia/" target="_blank">
-linkedin.com/in/khanzia
+<a href="https://linkedin.com/in/khanzia"
+   target="_blank"
+   rel="noopener noreferrer"
+   onclick="gtag('event','linkedin_click');">
+    linkedin.com/in/khanzia
 </a>
 </p>
 
