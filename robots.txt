@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://ziakhn.github.io/ziakhan-portfolio/sitemap.xml
